@@ -1,6 +1,7 @@
+import React from 'react'
 import dynamic from 'next/dynamic';
 
-const Catalog = dynamic(() => import('@/components/catalog/Catalog'), {
+const Cart = dynamic(() => import('@/components/cart/Cart'), {
   loading: () => (
     <div className='mt-8'>
       <h2 className='container text-3xl font-semibold antialiased text-center'>Loading...</h2>
@@ -8,10 +9,10 @@ const Catalog = dynamic(() => import('@/components/catalog/Catalog'), {
   ),
 });
 
-export default function Home() {
+export default function page() {
   return (
-    <div className="container">
-      <Catalog />
+    <div className='container'>
+      <Cart />
     </div>
-  );
+  )
 }

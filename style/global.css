@@ -1,0 +1,14 @@
+body {
+    background: #0e0e0e;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
