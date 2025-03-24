@@ -34,4 +34,4 @@ bun dev
 > https://photo-point-jet.vercel.app/
 
 ## Image 
-![Image Description](https://github.com/twoGophers/photo-point/blob/main/images/1666325859_55-mykaleidoscope-ru-p-modnaya-kartinka-zhenskie-vkontakte-57.jpg?raw=true)
+![Image Description](https://github.com/twoGophers/photo-point/blob/master/public/Screenshot_3.png)
